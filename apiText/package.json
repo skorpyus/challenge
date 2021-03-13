@@ -1,0 +1,17 @@
+{
+  "name": "apitext",
+  "version": "1.0.0",
+  "description": "Api Text ",
+  "main": "api.js",
+  "scripts": {
+    "test": "standard && npx mocha test/run.js"
+  },
+  "author": "Salvador Spano",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  }
+}
