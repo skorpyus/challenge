@@ -38,17 +38,17 @@ API REST, a la cual se le envía un texto y responde con el mismo texto invertid
 ## Test Unitarios Ok
 
   GET /iecho
-    * Retorno de texto invertido y NO es palíndromo 
-    * Retorno de texto invertido y SI es palíndromo
-    * Retorno de error cuando falta parámetro texto
-    * Devuelve error cuando el parámetro texto esta vacío
+ * Retorno de texto invertido y NO es palíndromo 
+ * Retorno de texto invertido y SI es palíndromo 
+ * Retorno de error cuando falta parámetro texto
+ * Devuelve error cuando el parámetro texto esta vacío
 
   4 passing
 
 ## libs & frameworks:
-	NodeJs https://nodejs.org/en/
-	ExpressJs https://expressjs.com/
-	StandardJs https://standardjs.com/
-	Mocha https://mochajs.org/
-	Chai https://www.chaijs.com/
-	SuperTest https://github.com/visionmedia/supertest#readme
+ * NodeJs [https://nodejs.org/en/](https://nodejs.org/en/)
+ * ExpressJs [https://expressjs.com/](https://expressjs.com/)
+ * StandardJs [https://standardjs.com/](https://standardjs.com/)
+ * Mocha [https://mochajs.org/](https://mochajs.org/)
+ * Chai [https://www.chaijs.com/](https://www.chaijs.com/)
+ * SuperTest [https://github.com/visionmedia/supertest#readme](https://github.com/visionmedia/supertest#readme)
