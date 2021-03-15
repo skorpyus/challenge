@@ -1,7 +1,6 @@
 # Challenge Test
  Technical Challenge Test
 
-
 ## Scripts
 
 Se pueden ejecutar los siguientes scripts
@@ -9,7 +8,7 @@ Se pueden ejecutar los siguientes scripts
 ### `npm start`
 
 Para levantar la api en development mode.\
-Se abre en el browser [http://localhost:8001] 
+Se abre en el browser [http://localhost:8000] 
 
 ### `npm test`
 
@@ -22,7 +21,7 @@ API REST, a la cual se le envía un texto y responde con el mismo texto invertid
 ### Usando NodeJs +ExpressJs se debe crear API de un solo endpoint al cual se le envía el texto de la siguiente forma:
 	
 	GET /iecho?text=test
-### Caso de exito - respuesta 200:
+### Caso de éxito - respuesta 200:
 	content-type: application/json
 	{
 	"text": "tset"
@@ -42,7 +41,7 @@ API REST, a la cual se le envía un texto y responde con el mismo texto invertid
     √ Retorno de texto invertido y NO es palíndromo 
     √ Retorno de texto invertido y SI es palíndromo
     √ Retorno de error cuando falta parámetro texto
-    √ Devuelve error cuando el parametro texto esta vacio
+    √ Devuelve error cuando el parámetro texto esta vacío
 
 
   4 passing

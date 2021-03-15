@@ -38,7 +38,8 @@ api.get('/iecho', (req, res) => {
 
 api.listen(8000, () => {
   // Se lanza server
-  console.log('Server activo y escuchando 8081')
+  console.log('Server activo y escuchando 8000')
+  console.log('http://localhost:8000')
 })
 
 // Se exporta para poder usar en las pruebas
