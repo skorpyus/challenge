@@ -4,7 +4,8 @@
   "description": "Api Text ",
   "main": "api.js",
   "scripts": {
-    "test": "standard && npx mocha test/run.js"
+    "test": "standard && npx mocha test/run.js",
+    "start": "node api.js"
   },
   "standard": {
     "env": [
